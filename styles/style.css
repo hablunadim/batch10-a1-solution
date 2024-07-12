@@ -178,6 +178,7 @@ h1 {
     margin: 0 auto;
     margin-top: 130px;
     display: flex;
+    margin-bottom: 50px;
 
 }
 
@@ -188,6 +189,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 50px;
 }
 
 .fast-section-contain h3 {
@@ -195,6 +197,7 @@ h1 {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+
 }
 
 .fast-section-contain h1 {
@@ -202,6 +205,7 @@ h1 {
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+
 }
 
 .fast-section-contain p {
@@ -255,5 +259,83 @@ h1 {
 /* holiday styles here */
 .holiday-section-container {
     width: 1320px;
-    height: 662.07px;
+    height: 986.07px;
+    margin-top: 150px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.holiday-section-contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.holiday-section-contain h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.holiday-section-contain span {
+    color: red;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+}
+
+.holiday-section-contain h2 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    margin-top: 15px;
+}
+
+.holiday-section-contain p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.solid-color {
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 77%;
+}
+
+.giftbox {
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    top: 15%;
+
+}
+
+.girl-photo {
+    width: 426px;
+    height: 433px;
+    position: relative;
+    left: 29%;
+    top: 8.5%;
+
+}
+.discount{
+    position: absolute;
+    bottom: 30%;
+    left: 55%;
+    z-index: 1;
 }
