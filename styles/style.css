@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: "Merriweather", serif;
 }
-.banner-container{
-    width: 1320px;
+
+.banner-container {
+    max-width: 1320px;
     margin: 0 auto;
-    border: 2px solid red;
     min-height: 600px;
     margin-top: 20px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     background-image: url('../images/Banner\ Image.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -23,7 +23,8 @@ body{
     background-blend-mode: overlay;
 
 }
-.banner-contain{
+
+.banner-contain {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,14 +32,73 @@ body{
     height: 600px;
 
 }
-.banner-contain p, h1{
+
+.banner-contain p,
+h1 {
     color: white;
 }
-.banner-contain p{
+
+.banner-contain p {
     font-size: 32px;
-font-weight: 400;
+    font-weight: 400;
 }
-.banner-contain h1{
+
+.banner-contain h1 {
     font-size: 72px;
-font-weight: 900;
+    font-weight: 900;
+}
+
+/* second-section-contain */
+.section-container {
+    width: 802.9px;
+    height: 651px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.section-contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-contain h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section-contain p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section-contain h3 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.image-contain {
+    width: 802.9px;
+    height: 500px;
+    margin-top: 48px;
+}
+.image-contain img{
+    width: 100%;
+    height: 100%;
 }
